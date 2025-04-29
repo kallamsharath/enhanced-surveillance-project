@@ -22,9 +22,9 @@ def send_message():
 known_face_encoding = []
 known_face_names = []
 
-known_p1 = fr.load_image_file("WhatsApp Image 2025-04-14 at 19.12.22_543f18e8.jpg")
-known_p2 = fr.load_image_file("WhatsApp Image 2025-04-14 at 19.12.23_749aa5cb.jpg")
-known_p3 = fr.load_image_file("WhatsApp Image 2025-04-14 at 19.12.24_26ae5391.jpg")
+known_p1 = fr.load_image_file("images/known/person1.jpg")
+known_p2 = fr.load_image_file("images/known/person2.jpg")
+known_p3 = fr.load_image_file("images/known/person3.jpg")
 
 known_face_encoding.append(fr.face_encodings(known_p1)[0])
 known_face_encoding.append(fr.face_encodings(known_p2)[0])
